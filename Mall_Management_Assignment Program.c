@@ -1,3 +1,15 @@
+/*Write a c program for the following scenario-based question
+A shopping complex has a sequence of shops arranged in a straight corridor.
+Each shop is represented as a node in a singly linked list, where each node stores:
+Shop ID (integer), Shop Name (string), and pointer to the next shop.
+
+The mall management wants to perform the following operations on the list of shops:
+Add a new shop at the end of the corridor.
+Insert a new shop after a shop with a given Shop ID.
+Remove a shop when it permanently closes.
+Search for a shop by its name to help customers locate it.
+Display the entire list of shops in the order they appear.*/
+    
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -168,3 +180,4 @@ int main() {
         }
     }
 }
+
