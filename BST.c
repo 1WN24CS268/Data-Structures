@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Node structure
 struct Node {
     int data;
     struct Node *left, *right;
@@ -53,14 +52,13 @@ void postorder(struct Node* root) {
     }
 }
 
-// Display elements (in-order by default)
+// Display elements 
 void display(struct Node* root) {
     printf("Tree elements (Inorder): ");
     inorder(root);
     printf("\n");
 }
 
-// Driver program
 int main() {
     struct Node* root = NULL;
     int n, value;
@@ -91,3 +89,4 @@ int main() {
 
     return 0;
 }
+
